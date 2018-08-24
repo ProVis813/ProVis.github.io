@@ -34,13 +34,16 @@ body{
     content: '';
     clear:both;
 }
-header{
-    margin:0 auto;
+
+header a{
+    color:white;
+    font-size:40px;
+    font-weight: bold;
+    
 }
 
 header h1{
     text-align: center;
-    color:white;
 }
 header p{
     text-align: center;
