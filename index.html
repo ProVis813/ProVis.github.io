@@ -1,31 +1,80 @@
 <!doctype html>
 <html lang="kr">
     <head>
+    
         <meta charset="utf-8">
         
         <link href="css/index.css"
+              type="text/css"
               rel="stylesheet">
+        
+        <script src="script/jquery-1.12.3.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <script src="script/script.js"></script>
         
     </head>
     
     <body>
         <div class="wrap">
-            <header>
-                <h1>
-                <a href="https://provis813.github.io/">
-                    
-                    ProVis
+            <header class="clearFix">
+                <div class="logo">
+                    <a href="#"><h1>ProV</h1></a>
+                </div>
                 
-                </a>
-                </h1>
-                <p>ProfessionalVisual</p>
+                <ul class="clearFix">
+                    <li><a id = "home" href="#">홈</a></li>
+                    <li><a id = "game" href="#">게임</a></li>
+                    <li><a id = "info" href="#">정보</a></li>
+                </ul>
             </header>
+            <div class="content">
+                <div class="cover" >
+                    <div class="cover_content">
+                        <img class="Logo" src="image/Logo.png">
+                        
+                        <div class="bar"></div>
+                        <p>
+                            <p1>"</p1>1인 개발자 ProV입니다.<p1>"</p1>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="Game">
+                    <p><p1>" </p1>Games<p1> "</p1></p>
+                    <ul id="list_h">
+                        <li>
+                            <ul id="list_1" clsss="clearFix">
+                                <li id="game_1">
+                                    <a href="https://play.google.com/store/apps/details?id=com.ProVis.LightMixer"><img src="image/game_1.jpg" width="200px" height = "200px"></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                
+            </div>
+            
             
             <footer>
-                <a href="info/info.html">
-                    개인정보 처리방침
-                </a>
+                
+                <p><p1>"</p1>Information<p1>"</p1></p>
+
+                <div id = "information">
+                    <a href="info/info.html">
+                        개인정보 처리방침
+                    </a>
+                    
+                    <div class="footer_content">
+                        <p>대표 : 김다겸</p>
+                        <p>주소 : 경기도 화성시 봉담읍.  문의 : provis813@gmail.com</p>
+                        
+                        <p style="font-size:30px; margin-top:50px;">CopyRight ⓒ 2018 ProV. All Right Reserved.</p>
+                    </div>
+                </div>
             </footer>
+            
         </div>
     </body>
 </html>
